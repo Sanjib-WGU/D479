@@ -16,7 +16,7 @@ function App() {
       <Router>
       <Navbar />
         <Routes>
-        {/* < Route path='' element={<Main/>} /> */}
+          {/* ---added /D479 for github-- */}
         < Route path='/D479' element={<Main/>} />
           < Route path='/' element={<Main/>} />
           <Route path='/lodging' element={<Lodging/>} />

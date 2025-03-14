@@ -10,18 +10,18 @@ function Hero() {
         <div className='absolute right-6 z-10'>
           <ul className='flex text-black m-4 items-center'>
             <li className='px-4 py-2'>
-              <NavLink to='/'>
+              <NavLink to='/' className={({isActive})=> isActive?'text-orange-400 text-xl':'hover:text-xl hover:text-white'}>
                 Home
               </NavLink>
             </li>
             <li className='p-4'>
-              <NavLink to='/lodging'>Lodging</NavLink></li>
+              <NavLink to='/lodging' className={({isActive})=> isActive?'text-orange-400 text-xl':'hover:text-xl hover:text-white'}>Lodging</NavLink></li>
             <li className='p-4'>
-              <NavLink to='/transportation'>Transportation</NavLink></li>
+              <NavLink to='/transportation' className={({isActive})=> isActive?'text-orange-400 text-xl':'hover:text-xl hover:text-white'}>Transportation</NavLink></li>
               <li className='p-4'>
-              <NavLink to='/todo'>Things To Do</NavLink></li>
+              <NavLink to='/todo' className={({isActive})=> isActive?'text-orange-400 text-xl':'hover:text-xl hover:text-white'}>Things To Do</NavLink></li>
               <li className='p-4'>
-              <NavLink to='/destinations'>Featured Destinations</NavLink></li>
+              <NavLink to='/destinations' className={({isActive})=> isActive?'text-orange-400 text-xl':'hover:text-xl hover:text-white'}>Featured Destinations</NavLink></li>
           </ul>
         </div>
       </div>
