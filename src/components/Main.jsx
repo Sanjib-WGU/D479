@@ -35,8 +35,8 @@ function Main() {
         </div>
       </div>
       <div className='max-w-[90%] mx-auto'>
-      <button className='border rounded-full p-2 my-2 font-bold cursor-pointer'>
-        <NavLink to='/todo'>Explore More</NavLink>
+      <button className='border rounded-full p-2 my-2 font-bold cursor-pointer bg-[#b9b8b8]'>
+        <NavLink to='/todo' className={'hover:text-white hover:text-xl'}>Explore More</NavLink>
         </button>
       </div>
       <div className='max-w-[90%] mx-auto m-4'>
@@ -62,8 +62,8 @@ function Main() {
         </div>
       </div>
       <div className='max-w-[90%] mx-auto'>
-      <button className='border rounded-full p-2 my-2 font-bold cursor-pointer'>
-      <NavLink to='/destinations'>Explore More</NavLink>
+      <button className='border rounded-full p-2 my-2 font-bold cursor-pointer bg-[#b9b8b8]'>
+      <NavLink to='/destinations' className={'hover:text-white hover:text-xl'}>Explore More</NavLink>
       </button>
       </div>
     </div>
